@@ -18,7 +18,6 @@ const Circle = styled.div`
   opacity: ${props => (props.active ? 1 : 0.8)};
   transition: all 0.2s ease-out;
   -webkit-tap-highlight-color: transparent;
-
   ${props =>
     props.active
       ? `
@@ -36,10 +35,11 @@ const Circle = styled.div`
     opacity: 1;
   }`}
 `;
-
 const CircularButton = props => (
   <Circle active={props.active} text={props.text}>
-    <FontAwesomeIcon icon={props.icon} />
+    <a href={props.target}>
+      <FontAwesomeIcon icon={props.icon} />
+    </a>
   </Circle>
 );
 

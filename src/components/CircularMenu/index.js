@@ -22,6 +22,7 @@ const CircularMenu = props => (
           <CircularButton
             text={item.text}
             icon={item.icon}
+            target={item.target}
             active={item.active}
           />
         );

@@ -26,7 +26,7 @@ const App = () => (
         },
         {
           text: "Empresa",
-          target: "",
+          target: "/info",
           icon: faHotel
         },
         {
