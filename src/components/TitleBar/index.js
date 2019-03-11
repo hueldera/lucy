@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Header = styled.div`
+const TitleBar = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,4 +21,4 @@ const Header = styled.div`
   font-weight: bold;
 `;
 
-export default Header;
+export default TitleBar;
