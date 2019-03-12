@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
 const TitleBar = styled.div`
   display: flex;
@@ -19,6 +19,6 @@ const TitleBar = styled.div`
     left bottom #253b55 no-repeat;
   background-size: 100% 1px;
   font-weight: bold;
-`;
+`
 
-export default TitleBar;
+export default TitleBar

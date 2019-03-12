@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
-import styled from "styled-components";
-import CircularButton from "../CircularButton";
+import React, { Fragment } from 'react'
+import styled from 'styled-components'
+import CircularButton from '../CircularButton'
 
 const MenuContent = styled.div`
   height: 30%;
@@ -12,7 +12,7 @@ const MenuContent = styled.div`
   align-items: center;
   /*background: url(${props => props.background}) center;*/
   flex-wrap: wrap;
-`;
+`
 
 const CircularMenu = props => (
   <Fragment>
@@ -23,11 +23,12 @@ const CircularMenu = props => (
             text={item.text}
             icon={item.icon}
             active={item.active}
+            target={item.target}
           />
-        );
+        )
       })}
     </MenuContent>
   </Fragment>
-);
+)
 
-export default CircularMenu;
+export default CircularMenu

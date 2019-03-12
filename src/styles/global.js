@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -18,6 +18,6 @@ const GlobalStyle = createGlobalStyle`
 
   }
 
-`;
+`
 
-export default GlobalStyle;
+export default GlobalStyle

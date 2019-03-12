@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react';
-import styled from 'styled-components';
+import React, { Fragment } from 'react'
+import styled from 'styled-components'
 
-const CardBox = styled.div`
+const InputBox = styled.div`
   margin-bottom: 10px;
   max-width: 80%;
   min-width: 60%;
@@ -54,8 +54,8 @@ const CardBox = styled.div`
   }
 `
 
-const Card = props => (
-  <CardBox>
+const Input = props => (
+  <InputBox>
     <a href={props.target}>
       <h1>
         {props.title}
@@ -63,6 +63,6 @@ const Card = props => (
       </h1>
       <p>{props.description}</p>
     </a>
-  </CardBox>
+  </InputBox>
 )
-export default Card
+export default Input
